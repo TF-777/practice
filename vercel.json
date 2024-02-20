@@ -1,6 +1,7 @@
 {
   "github": {
     "branches": ["dev"],
-    "silent": true
+    "silent": true,
+    "enabled": false
   }
 }

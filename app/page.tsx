@@ -1,7 +1,5 @@
-import middleware from '../pages/api/middleware';
+const Home: React.FC = () => {
+  return <h1>dev ブランチのテスト</h1>;
+};
 
-export default async function handler(req, res) {
-  await middleware(req, res);
-  return <h1>TOPページですよ!!!</h1>;
-  // この後の処理を記述します
-}
+export default Home;
